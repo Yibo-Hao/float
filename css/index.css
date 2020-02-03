@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* css reset*/
+ul > li {
+  float: left;
+  padding: 4px 0.5em;
+  line-height: 32px;
+}
+ul {
+  display: inline-block;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+img {
+  max-width: 100%;
+}
+.logo {
+  background: gray;
+  margin-top: 8px;
+  float: left;
+  margin-left: 10px;
+}
+.logo > img {
+  height: 26px;
+  vertical-align: middle;
+}
+.nav {
+  float: right;
+  margin-right: 10px;
+}
+header {
+  background: gray;
+  color: white;
+}
+.content {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.content > aside {
+  width: 200px;
+  height: 300px;
+  background: #aaaaaa;
+  float: left;
+}
+.content > main {
+  background: #bbbbbb;
+  height: 300px;
+  width: 500px;
+  float: left;
+}
+.content > .ad {
+  width: 100px;
+  height: 300px;
+  float: left;
+  background: black;
+}
+.imagelists {
+  width: 800px;
+  outline: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagelists>.x>.image{
+    width: 191px;
+    height: 191px;
+    border: 1px solid green;
+    background: gray;
+    float: left;
+    margin-right: 12px;
+    margin-top: 10px;
+
+}
+.x{
+    margin-right: -12px;
+}
